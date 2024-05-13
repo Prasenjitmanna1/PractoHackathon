@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="utilities.ExtentReportGenerator"></listener>
+	</listeners>
+	<test name="ChromeTest">
+		<parameter name="browser" value="Chrome"></parameter>
+
+		<classes>
+			<class name="testComponents.TC_001_FindingHospital" />
+			<class name="testComponents.TC_002_SearchingDentists" />
+			<class name="testComponents.TC_003_DiagnosticsDetails" />
+			<class
+				name="testComponents.TC_004_CorporateWellness_ValidDetails" />
+			<class
+				name="testComponents.TC_004_CorporateWellness_InvalidDetails" />
+		</classes>
+	</test>
+	
+	<test name="EdgeTest"> 
+  <parameter name="browser" value="Edge"></parameter>
+  
+    <classes>
+			<class name="testComponents.TC_001_FindingHospital" />
+			<class name="testComponents.TC_002_SearchingDentists" />
+			<class name="testComponents.TC_003_DiagnosticsDetails" />
+			<class
+				name="testComponents.TC_004_CorporateWellness_ValidDetails" />
+			<class
+				name="testComponents.TC_004_CorporateWellness_InvalidDetails" />
+		</classes>
+  </test>  
+
+</suite> <!-- Suite -->
+
+
+

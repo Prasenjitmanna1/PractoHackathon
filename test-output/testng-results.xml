@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-08T17:30:41 IST" name="Suite" finished-at="2024-05-08T17:40:44 IST" duration-ms="602975">
+    <groups>
+    </groups>
+    <test started-at="2024-05-08T17:30:41 IST" name="ChromeTest" finished-at="2024-05-08T17:40:44 IST" duration-ms="602975">
+      <class name="testComponents.TC_004_CorporateWellness_ValidDetails">
+        <test-method is-config="true" signature="setUpBrowser(java.lang.String)[pri:0, instance:testComponents.TC_004_CorporateWellness_ValidDetails@792b749c]" started-at="2024-05-08T17:38:03 IST" name="setUpBrowser" finished-at="2024-05-08T17:38:38 IST" duration-ms="35653" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="openingCorporateWellness()[pri:0, instance:testComponents.TC_004_CorporateWellness_ValidDetails@792b749c]" started-at="2024-05-08T17:38:38 IST" name="openingCorporateWellness" finished-at="2024-05-08T17:39:28 IST" duration-ms="49823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingCorporateWellness -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testComponents.TC_004_CorporateWellness_ValidDetails@792b749c]" started-at="2024-05-08T17:39:28 IST" name="tearDown" finished-at="2024-05-08T17:39:32 IST" duration-ms="3419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testComponents.TC_004_CorporateWellness_ValidDetails -->
+      <class name="testComponents.TC_003_DiagnosticsDetails">
+        <test-method is-config="true" signature="setUpBrowser(java.lang.String)[pri:0, instance:testComponents.TC_003_DiagnosticsDetails@6d60fe40]" started-at="2024-05-08T17:37:20 IST" name="setUpBrowser" finished-at="2024-05-08T17:37:56 IST" duration-ms="36250" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="navigatingToDiagnostics()[pri:1, instance:testComponents.TC_003_DiagnosticsDetails@6d60fe40]" started-at="2024-05-08T17:37:56 IST" name="navigatingToDiagnostics" finished-at="2024-05-08T17:38:00 IST" duration-ms="4096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatingToDiagnostics -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testComponents.TC_003_DiagnosticsDetails@6d60fe40]" started-at="2024-05-08T17:38:01 IST" name="tearDown" finished-at="2024-05-08T17:38:03 IST" duration-ms="2148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testComponents.TC_003_DiagnosticsDetails -->
+      <class name="testComponents.TC_002_SearchingDentists">
+        <test-method is-config="true" signature="setUpBrowser(java.lang.String)[pri:0, instance:testComponents.TC_002_SearchingDentists@43df23d3]" started-at="2024-05-08T17:32:10 IST" name="setUpBrowser" finished-at="2024-05-08T17:32:46 IST" duration-ms="36651" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="searchingDentists()[pri:1, instance:testComponents.TC_002_SearchingDentists@43df23d3]" started-at="2024-05-08T17:32:46 IST" name="searchingDentists" finished-at="2024-05-08T17:34:04 IST" duration-ms="78170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchingDentists -->
+        <test-method signature="gettingDentists()[pri:2, instance:testComponents.TC_002_SearchingDentists@43df23d3]" started-at="2024-05-08T17:34:05 IST" name="gettingDentists" finished-at="2024-05-08T17:37:14 IST" duration-ms="188941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettingDentists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testComponents.TC_002_SearchingDentists@43df23d3]" started-at="2024-05-08T17:37:14 IST" name="tearDown" finished-at="2024-05-08T17:37:20 IST" duration-ms="6133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testComponents.TC_002_SearchingDentists -->
+      <class name="testComponents.TC_004_CorporateWellness_InvalidDetails">
+        <test-method is-config="true" signature="setUpBrowser(java.lang.String)[pri:0, instance:testComponents.TC_004_CorporateWellness_InvalidDetails@23e84203]" started-at="2024-05-08T17:39:32 IST" name="setUpBrowser" finished-at="2024-05-08T17:40:08 IST" duration-ms="35915" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="checkingInvalidDetails1()[pri:1, instance:testComponents.TC_004_CorporateWellness_InvalidDetails@23e84203]" started-at="2024-05-08T17:40:08 IST" name="checkingInvalidDetails1" finished-at="2024-05-08T17:40:42 IST" duration-ms="33863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingInvalidDetails1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testComponents.TC_004_CorporateWellness_InvalidDetails@23e84203]" started-at="2024-05-08T17:40:42 IST" name="tearDown" finished-at="2024-05-08T17:40:44 IST" duration-ms="2454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testComponents.TC_004_CorporateWellness_InvalidDetails -->
+      <class name="testComponents.TC_001_FindingHospital">
+        <test-method is-config="true" signature="setUpBrowser(java.lang.String)[pri:0, instance:testComponents.TC_001_FindingHospital@4a003cbe]" started-at="2024-05-08T17:30:42 IST" name="setUpBrowser" finished-at="2024-05-08T17:31:20 IST" duration-ms="37776" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="searchingHospital()[pri:1, instance:testComponents.TC_001_FindingHospital@4a003cbe]" started-at="2024-05-08T17:31:20 IST" name="searchingHospital" finished-at="2024-05-08T17:32:01 IST" duration-ms="41430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchingHospital -->
+        <test-method signature="gettingHospital()[pri:2, instance:testComponents.TC_001_FindingHospital@4a003cbe]" started-at="2024-05-08T17:32:02 IST" name="gettingHospital" finished-at="2024-05-08T17:32:06 IST" duration-ms="4870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettingHospital -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testComponents.TC_001_FindingHospital@4a003cbe]" started-at="2024-05-08T17:32:07 IST" name="tearDown" finished-at="2024-05-08T17:32:10 IST" duration-ms="2966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testComponents.TC_001_FindingHospital -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
